@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style: none;
+}
+body{
+    font-family: 'Roboto Serif', serif;
+}
+#header{
+padding: 10px;
+}
+.header__hero{
+    background-image: url("../taun/header-bg-1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 120vh;
+}
+@media (max-width:375px){
+    .container{
+        width: 375px;
+        margin:0;
+    }
+}
+a{
+    text-decoration: none;
+}
+
+.header__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left img{
+    width:250px;
+}
+.right img{
+    width:20px;
+}
+.right span{
+    color: white;
+    font-size: 1rem;
+}
+#hero{
+    margin-top: 4em;
+}
+.hero__content{
+    border: 20px solid #ff8c00;
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero__content, h1 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+span{
+    color: orange;
+}
+.global__phone, img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-top:1px;
+}
+.icon,img span{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+#lacostion{
+margin: 5rem 0;
+}
+.locastion__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.lacostion__icon{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.locastion__box__text{
+    margin-top: 10px;
+    text-align: center;
+}
+.text__content p{
+    margin-top: 30px;
+}
+
+.text__content h2:before{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 130%;
+    height: 1px;
+    width: 50px;
+    background: #000;
+    left: 3%;
+    z-index:1;
+    transform: translateY(-1rem);
+    border-top: 1px solid black;
+    margin: 3rem;
+}
+.underline{
+    width: 100%;
+    height: 10px;
+    background-color: gray;
+    margin:  2rem 0;
+}
+
+.our__homes__title{
+    position: relative;
+    margin-bottom: 5rem;
+}
+.our__homes__title__text{
+    margin-left: 90px;
+}
+.our__homes__title__text h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.our__homes__title__text h1:before{
+    position: absolute;
+    display: inline-block;
+    contain: "";
+    border-top: 1rem solid black;
+    width: 4rem;
+    left: 10px;
+    top: 12px;
+
+}
+.our__homes__title__text h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-top: 10px;
+}
+.our__homes__boxes{
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+.our__homes__image{
+    width: 50em;
+    height: 55em;
+}
+
+.our__homes__image img{
+    width: 500px;
+}
+.our__homes__text{
+    margin: 20px;
+}
+.our__homes__text h1{
+    font-weight: 300;
+}
+.our__homes__text p{
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing: 1.5px;
+    font-size: 1rem;
+}
+.price__text{
+    margin-bottom: 30px;
+}
+.our__homes__kvadrat{
+    position: absolute;
+    border: 10px solid #ffd500;
+    width: 80px;
+    height: 80px;
+    top:30px;
+    right: 100px;
+}
+.our__homes__title2{
+    position: relative;
+    margin-bottom:5rem;
+}
+.our__homes__boxes2{
+    margin-left:90px;
+}
+.our__homes__text2 h1{
+    text-transform: uppercase;
+    font-size: 25px;
+}
+.our__homes__text2{
+    margin-top: 100px;
+    display:flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content:space-between;
+}
+.our__homes__text2,h1:before{
+    position: absolute;
+    contain: "";
+    border-top: 1px solid black;
+    width: 4rem;
+    left: 10px;
+    top: 12px;
+}
+.our__homes__box2{
+    width: 50em;
+    height: 55em;
+}
+.box__image img{
+    width: 500px;
+}
+
+.our__homes__text2{
+    margin:20px;
+}
+.our__homes__text2 h1{
+    font-weight:300;
+}
+.our__homes__text2 p{
+    margin-top: 20px;
+    line-height: 25px;
+    letter-spacing:1px;
+    font-size: 1rem;
+}

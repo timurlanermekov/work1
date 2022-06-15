@@ -1,0 +1,32 @@
+@media(max-width:375px){
+    .hero__content{
+        border: none;
+        text-align: center;
+    }
+}
+@media{
+    .header__content{
+        display: block;
+        padding:0;
+        border: none;
+    }
+    .global__btn{
+        width: 100%;
+    }
+    .locastion__box{
+        display: block;
+    }
+    .our__homes__kvadrat{
+        display: none;
+    }
+    .our__homes__boxes{
+        display: block;
+    }
+    .our__homes__image{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
